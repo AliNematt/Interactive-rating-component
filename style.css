@@ -162,3 +162,10 @@ label {
     color: var(--orange);
     transition: all 0.3s ease-in-out;
 }
+
+@media (max-width:768px) {
+    .container{
+        width: 320px;
+        padding: 20px;
+    }
+}
